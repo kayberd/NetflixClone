@@ -1,32 +1,36 @@
 //
-//  Movie.swift
+//  Title.swift
 //  NetflixClone
 //
 //  Created by Berkay Demirören on 19.11.2022.
 // To parse the JSON, add this file to your project and do:
 //
-//   let movie = try? newJSONDecoder().decode(Movie.self, from: jsonData)
+//   let title = try? newJSONDecoder().decode(Title.self, from: jsonData)
 
 import Foundation
 
-protocol MovieResponseInterface: Codable {
-    var results: [Movie] {get set}
+protocol TitleResponseInterface: Codable {
+    var results: [Title] {get set}
 }
 
-struct TrendingMovieResponse: MovieResponseInterface {
-    var results: [Movie]
+struct TrendingTitleResponse: TitleResponseInterface {
+    var results: [Title]
 }
 
-struct UpcomingMovieResponse: MovieResponseInterface {
-    var results: [Movie]
+struct UpcomingTitleResponse: TitleResponseInterface {
+    var results: [Title]
 }
 
-struct PopularMovieResponse: MovieResponseInterface {
-    var results: [Movie]
+struct PopularTitleResponse: TitleResponseInterface {
+    var results: [Title]
 }
 
-// MARK: - Movie
-struct Movie: Codable {
+struct TopRatedTitleResponse: TitleResponseInterface {
+    var results: [Title]
+}
+
+// MARK: - Title
+struct Title: Codable {
     let adult: Bool
     let backdropPath: String
     let id: Int

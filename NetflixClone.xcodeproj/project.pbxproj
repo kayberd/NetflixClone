@@ -19,9 +19,9 @@
 		04935D4B29275F22002060AB /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D4A29275F22002060AB /* CollectionViewTableViewCell.swift */; };
 		04935D4D2927799F002060AB /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D4C2927799F002060AB /* HeroHeaderUIView.swift */; };
 		04935D4F29279E9E002060AB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D4E29279E9E002060AB /* ApiCaller.swift */; };
-		04935D5129291E9B002060AB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D5029291E9B002060AB /* Movie.swift */; };
+		04935D5129291E9B002060AB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D5029291E9B002060AB /* Title.swift */; };
 		04935D5329292833002060AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D5229292833002060AB /* Extensions.swift */; };
-		04935D5529292C54002060AB /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D5429292C54002060AB /* TvShow.swift */; };
+		04FF05D52929476900CD440A /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF05D42929476900CD440A /* TitleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		04935D4A29275F22002060AB /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		04935D4C2927799F002060AB /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		04935D4E29279E9E002060AB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
-		04935D5029291E9B002060AB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04935D5029291E9B002060AB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		04935D5229292833002060AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		04935D5429292C54002060AB /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
+		04FF05D42929476900CD440A /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +106,7 @@
 			children = (
 				04935D4A29275F22002060AB /* CollectionViewTableViewCell.swift */,
 				04935D4C2927799F002060AB /* HeroHeaderUIView.swift */,
+				04FF05D42929476900CD440A /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,8 +121,7 @@
 		04935D4729275EC9002060AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04935D5029291E9B002060AB /* Movie.swift */,
-				04935D5429292C54002060AB /* TvShow.swift */,
+				04935D5029291E9B002060AB /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,14 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04935D4229275988002060AB /* SearchViewController.swift in Sources */,
+				04FF05D52929476900CD440A /* TitleCollectionViewCell.swift in Sources */,
 				04935D2D292757F5002060AB /* MainTabBarViewController.swift in Sources */,
 				04935D4B29275F22002060AB /* CollectionViewTableViewCell.swift in Sources */,
 				04935D4D2927799F002060AB /* HeroHeaderUIView.swift in Sources */,
 				04935D44292759D3002060AB /* DownloadsViewController.swift in Sources */,
-				04935D5129291E9B002060AB /* Movie.swift in Sources */,
+				04935D5129291E9B002060AB /* Title.swift in Sources */,
 				04935D29292757F5002060AB /* AppDelegate.swift in Sources */,
 				04935D5329292833002060AB /* Extensions.swift in Sources */,
-				04935D5529292C54002060AB /* TvShow.swift in Sources */,
 				04935D2B292757F5002060AB /* SceneDelegate.swift in Sources */,
 				04935D3E2927596A002060AB /* HomeViewController.swift in Sources */,
 				04935D402927597B002060AB /* UpcomingViewController.swift in Sources */,

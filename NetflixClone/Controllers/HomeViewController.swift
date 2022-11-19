@@ -87,14 +87,14 @@ class HomeViewController: UIViewController {
 //                    print(error)
 //            }
 //        }
-        ApiCaller.shared.getPopularTvShows { result in
-            switch result {
-                case .success(let results):
-                    print(results)
-                case .failure(let error):
-                    print(error)
-            }
-        }
+//        ApiCaller.shared.getPopularTvShows { result in
+//            switch result {
+//                case .success(let results):
+//                    print(results)
+//                case .failure(let error):
+//                    print(error)
+//            }
+//        }
     }
     
     
